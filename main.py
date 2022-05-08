@@ -54,18 +54,18 @@ brand = "Amigoscode"
 print(brand)
 # -----------------------------------------------------------------------------------------
 # ------------------------------FLOW CONTROL ----------------------------------------------
-# number = int(input("Donner votre variable à evaluer :"))
-# if number > 0:
-#     print(f"la variable number = {number} est positive.")
-# elif number == 0:
-#     print(f"la variable number = {number} est nulle")
-# else:
-#     print(f"la variable number = {number} est négative")
-# # ------------------------------Autre Méthode térnaire ------------------------------------
-# number = int(input("Donner votre variable à evaluer :"))
-# message = "Positive" if number > 0 else "0 ou négative"
-# print(f"la variable number est:  {message}")
-# # ----------------------------LES LISTES ---------------------------------------------------
+number = int(input("Donner votre variable à evaluer :"))
+if number > 0:
+    print(f"la variable number = {number} est positive.")
+elif number == 0:
+    print(f"la variable number = {number} est nulle")
+else:
+    print(f"la variable number = {number} est négative")
+# ------------------------------Autre Méthode térnaire ------------------------------------
+number = int(input("Donner votre variable à evaluer :"))
+message = "Positive" if number > 0 else "0 ou négative"
+print(f"la variable number est:  {message}")
+# ----------------------------LES LISTES ---------------------------------------------------
 liste = [14, 7, 31, 0, -12, 63, -10]
 liste.sort()
 print(liste.sort())  # ======> Retourne None, il faut faire un print sur "liste"
