@@ -139,4 +139,3 @@ personne["age"] = 100
 print(f"la liste aprés changement d'age est  : {personne}")
 age_changed = personne.get("age")  # donne l'age d'une autre manière  <====> age_changed = personne["age"]
 print(f"la liste aprés changement d'age est  : {age_changed}")
-print("hello Git")
